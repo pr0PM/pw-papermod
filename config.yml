@@ -132,6 +132,9 @@ menu:
     - identifier: serach
       name: search
       url: /search/
+    - identifier: links
+      name: links
+      url: /links/
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
