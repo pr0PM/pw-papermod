@@ -16,8 +16,8 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Prateek Mishra from FoET
-  description: "pr0pm's corner of the internet     kkkkk"
+  title: Prateek Mishra
+  description: "pr0pm's corner of the internet"
   keywords: [blog, pr0PM, Prateek, pr0pm, articles]
   # author: ["pr0PM", "Prateek Mishra"]
   # author: ["Me", "You"] # multiple authors
