@@ -1,8 +1,8 @@
-baseURL: "https://localhost:1313"
+baseURL: "http://demo.pr0pm.in"
 title: Prateek Mishra
 paginate: 5
 theme: PaperMod
-staticDir: static
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -16,10 +16,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Prateek Mishra
-  description: "pr0pm's corner of the internet"
+  title: Prateek Mishra from FoET
+  description: "pr0pm's corner of the internet     kkkkk"
   keywords: [blog, pr0PM, Prateek, pr0pm, articles]
-  author: ["pr0PM", "Prateek Mishra"]
+  # author: ["pr0PM", "Prateek Mishra"]
   # author: ["Me", "You"] # multiple authors
   images: ["images/pr0pm.jpeg"]
   DateFormat: "January 2, 2006"
@@ -27,7 +27,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -54,7 +54,7 @@ params:
   label:
     text: "pr0PM"
     # icon: "images/favicon_io/apple-touch-icon.png" 
-    iconHeight: 35
+    # iconHeight: 35
 
   # profile-mode
   profileMode:
@@ -66,10 +66,9 @@ params:
     imageHeight: 300
     imageTitle: pr0pm
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: About
+        url: about
+
 
   # home-info mode
   # homeInfoParams:
@@ -89,22 +88,22 @@ params:
       url: "index.xml"
 
   analytics:
-    # google:
-    #   SiteVerificationTag: "XYZabc"
-    # bing:
-    #   SiteVerificationTag: "XYZabc"
-    # yandex:
-    #   SiteVerificationTag: "XYZabc"
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-      appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -118,14 +117,21 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: about
+      name: about
+      url: /about
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: posts
+      name: posts
+      url: /posts/
       weight: 20
+    - identifier: serach
+      name: search
+      url: /search/
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
@@ -140,3 +146,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
