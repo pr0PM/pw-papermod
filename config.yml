@@ -21,7 +21,7 @@ params:
   keywords: [blog, pr0PM, Prateek, pr0pm, articles]
   # author: ["pr0PM", "Prateek Mishra"]
   # author: ["Me", "You"] # multiple authors
-  images: ["images/pr0pm.jpeg"]
+  images: ["images/pr0pm.webp"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Prateek Mishra
     subtitle: "pr0pm's corner of the internet"
-    imageUrl: "images/pr0pm.jpeg"
+    imageUrl: "images/pr0pm.webp"
     imageWidth: 300
     imageHeight: 300
     imageTitle: pr0pm
