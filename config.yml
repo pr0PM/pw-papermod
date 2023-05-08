@@ -48,7 +48,7 @@ params:
     favicon: "images/favicon_io/pr0pm.ico"
     favicon16x16: "images/favicon_io/pr0pm-16x16.png"
     favicon32x32: "images/favicon_io/pr0pm-32x32.png"
-    apple_touch_icon: "images/favicon_io/pr0pm.png"
+    apple_touch_icon: "images/favicon_io/pm.webp"
     # safari_pinned_tab: ""
 
   label:
