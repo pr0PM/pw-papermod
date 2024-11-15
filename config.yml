@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Prateek Mishra
     subtitle: "pr0pm's corner of the internet"
-    imageUrl: "images/pr0pm.webp"
+    imageUrl: "images/pr0pm3.webp"
     imageWidth: 300
     imageHeight: 300
     imageTitle: pr0pm
