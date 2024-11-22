@@ -3,9 +3,6 @@ title: "Why I chose hugo-papermod in the end?"
 date: "2023-04-14"
 description: "briefly covered why and how I am usnig hugo papermod"
 tags: ["papermod", "blog", "hugo"]
-# aliases: ["migrate-from-jekyl"]
-# ShowToc: true
-# TocOpen: true
 ---
 ## Intro
 I started off creating a minimalistic website with vanilla CSS and HTML. My goal was to build a simple lightweight and fast personal website and it worked out pretty well. Until I realized having a blog with the website should be pretty good.
