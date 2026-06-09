@@ -17,7 +17,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Prateek Mishra
   description: "pr0pm's corner of the internet"
-  keywords: [blog, pr0PM, Prateek, Prateek Mishra, pr0pm, articles, resources, Lucknow]
+  keywords: [blog, pr0PM, Prateek, Prateek Mishra, pr0pm, cloud, kubernetes, docker, infrastructure, AI agents, linux, Lucknow]
   # author: ["pr0PM", "Prateek Mishra"]
   # author: ["Me", "You"] # multiple authors
   images: ["images/pr0pm.webp"]
@@ -59,7 +59,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Prateek Mishra
-    subtitle: "pr0pm's corner of the internet"
+    subtitle: "cloud & security engineer: infrastructure and agents"
     imageUrl: "images/pr0pm3.webp"
     imageWidth: 300
     imageHeight: 300
@@ -130,6 +130,14 @@ menu:
     - identifier: links
       name: links
       url: /links/
+    - identifier: talks
+      name: talks
+      url: /talks/
+      weight: 30
+    - identifier: now
+      name: now
+      url: /now/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
