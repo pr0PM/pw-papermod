@@ -13,6 +13,16 @@ Mentoring students and new developers is something I genuinely care about not ju
 
 ## 2026
 
+### Trust, but Sandbox: Securing AI Agents
+**Open Source Summit India 2026 · Jun 16, 2026**
+📍 In-person, Mumbai · Talk
+
+A talk on securing AI agents co-presented with [Sudhanshu P.](https://www.linkedin.com/in/sudhanshu212) at the Linux Foundation's Open Source Summit India 2026.
+
+[Event post →](https://www.linkedin.com/posts/pr0pm_ossummit-ossummitmumbai2026-opensource-share-7472500124892667904-Du17/)
+
+---
+
 ### Agentic Premier League Hackathon: Mentor
 **SOCIALs Lucknow · May 31, 2026**
 📍 In-person, Lucknow · Mentoring
