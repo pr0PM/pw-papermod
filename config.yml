@@ -60,7 +60,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Prateek Mishra
     subtitle: "cloud & security engineer: infrastructure and agents"
-    imageUrl: "images/pr0pm3.webp"
+    imageUrl: "images/pr0pm-ossummit.webp"
     imageWidth: 300
     imageHeight: 300
     imageTitle: pr0pm
